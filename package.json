@@ -1,0 +1,26 @@
+{
+  "name": "arquitectura-nodejs-admin",
+  "version": "1.0.0",
+  "description": "Sitio web Node.js con autenticación y gestión de usuarios con SQLite",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "sqlite",
+    "admin",
+    "usuarios"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "better-sqlite3": "^11.10.0",
+    "bcryptjs": "^2.4.3",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "express-session": "^1.18.1"
+  }
+}
