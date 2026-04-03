@@ -1,0 +1,18 @@
+<%- include('../partials/header') %>
+<%- include('../partials/app-shell-start') %>
+
+<section class="card">
+  <h2>Bienvenido, <%= user.username %></h2>
+  <p>
+    Este sitio está construido con una arquitectura Node.js modular,
+    Express para la capa web y SQLite para la persistencia de usuarios.
+  </p>
+  <ul>
+    <li>Rol actual: <b><%= user.role %></b>.</li>
+    <li>Los administradores pueden crear nuevos usuarios y asignarles rol.</li>
+    <li>El menú lateral está preparado para agregar más módulos.</li>
+  </ul>
+</section>
+
+<%- include('../partials/app-shell-end') %>
+<%- include('../partials/footer') %>
