@@ -147,9 +147,15 @@ input, select {
 
 .user-pill {
   background: #e2e8f0;
+  color: #1f2937;
   border-radius: 999px;
   padding: 0.45rem 0.8rem;
   font-size: 0.85rem;
+}
+
+.dark .user-pill {
+  background: #1f2937;
+  color: #e5e7eb;
 }
 
 .card {
